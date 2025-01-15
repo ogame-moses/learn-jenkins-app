@@ -22,4 +22,10 @@ pipeline {
             }
         }
     }
+
+    stage{
+        step{
+            sh 'test -f build/index.html'
+        }
+    }
 }
