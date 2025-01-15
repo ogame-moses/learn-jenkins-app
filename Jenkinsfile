@@ -25,7 +25,8 @@ pipeline {
              steps{
                 echo 'Test stage'
              }    
-    }
+             
+        }
     }
 
     
